@@ -1,0 +1,35 @@
+{
+  "name": "dradriana.com",
+  "version": "1.0.0",
+  "description": "Sitio Web Dr. Adriana",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Dr",
+    "Adriana",
+    "Dermatologa",
+    "Dermatitis",
+    "Piel",
+    "Doctora Adriana"
+  ],
+  "author": "Santiago M - CoeurMkt",
+  "license": "ISC",
+  "devDependencies": {
+    "bulma-carousel": "^4.0.24",
+    "bulma-stylus-plus": "*",
+    "del": "^6.0.0",
+    "font-awesome-stylus": "^4.7.1",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-stylus": "^2.7.0",
+    "gulp-uglify": "^3.0.2"
+  },
+  "dependencies": {
+    "gulp": "^4.0.2"
+  }
+}

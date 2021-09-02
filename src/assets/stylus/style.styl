@@ -1,0 +1,491 @@
+// Fonts
+@import url('fonts.styl');
+
+// Color Fondo
+da-fondo = #FAFAFA 
+
+// Color Texto
+da-texto = #333333
+
+// Color Rosa Principal
+da-rosa = #ffb8b8
+da-rosa-fuerte = #ff8585
+
+// Color Gris Principal
+da-gris = #c6c6c6
+da-gris-fuerte = #adadad
+
+// Color Azul complementario del rosa
+da-azul-claro = #b8fff0
+da-azul = #b8ffff
+da-azul-fuerte = #85ffe5
+
+html,
+body 
+    margin: 0 
+    padding: 0
+    overflow-x: hidden
+    overflow-y: auto
+    font-family: Arquitecta, sans-serif
+    color: da-texto
+
+// Titulos
+h1.titulo
+    font-size: 2rem 
+    font-weight: 800
+    padding: 0 0 .25rem 0
+    text-transform: uppercase
+    text-align: center
+    margin: .5rem 1rem 1.5rem
+    color: da-texto
+    letter-spacing: .5rem
+    background: url('../img/linea.png') center bottom no-repeat
+
+    &.blanco 
+        color: white 
+        background: none
+
+// Botones 
+button.boton_cita
+    background: da-texto
+    color: da-fondo
+    border: none
+    cursor: pointer
+    padding: .5rem
+    font-weight: 700
+    font-size: 1.1rem
+    text-transform: uppercase
+    transition: all .5s ease
+
+    &:hover, &:focus
+        background: da-gris
+        color: da-texto
+
+#page-container
+    min-height: 100vh
+    background: da-fondo
+    scroll-behavior: smooth
+
+
+nav.navbar
+    background-color: transparent 
+    position: absolute
+    width: 100%
+    & .navbar-burger
+        & span
+            background-color: white
+    
+    &.follow
+        position: fixed
+        background-color: white
+        & .navbar-burger
+            & span 
+                background-color: black
+
+    & .navbar-item
+        & img 
+            max-height: 5rem
+            &#color
+                display: none
+                &.show
+                    display: block
+            &#blanco
+                display: block
+                &.show
+                    display: none
+
+    & .navbar-menu
+        & #navbarLinks
+            position: absolute
+            top: 5rem
+            right: 0
+
+            display: block
+            filter: opacity(0)
+            transform: translate(100%, 0)
+            text-transform: uppercase
+            font-size: 1.3rem
+            background: white
+
+            transition: all .5s ease-out
+
+            &.is-active
+                filter: opacity(1)
+                transform: translate(0, 0)
+
+        & .navbar-end
+            align-items: center
+            & a
+                margin: .5rem
+                &.navbar-burger
+                    display: block
+
+                & img 
+                    height: 24px
+
+                    filter: invert(94%) sepia(18%) saturate(6312%) hue-rotate(298deg) brightness(115%) contrast(111%)
+
+                    &.lang
+                        filter: none;
+
+                        &.fixed, &:hover, &.fixed:hover
+                            filter:none;
+                    &.fixed
+                        filter: invert(99%) sepia(12%) saturate(22%) hue-rotate(35deg) brightness(101%) contrast(103%)
+                        &:hover
+                            filter: invert(18%) sepia(7%) saturate(9%) hue-rotate(339deg) brightness(94%) contrast(92%)
+
+                    &:hover
+                        filter: invert(98%) sepia(65%) saturate(687%) hue-rotate(132deg) brightness(105%) contrast(103%)
+                    
+
+
+#home
+
+    min-height: 100vh
+    padding: 3rem
+    background-image: 
+        linear-gradient(
+            180deg,
+            rgba(0,0,0,0),
+            rgba(0,0,0,0.7)
+        ),
+        url('../img/main.jpg')
+    background-size: cover
+    background-position: top 35% center
+
+    display: flex 
+    flex-direction: column-reverse
+    align-content: flex-end 
+    justify-content: center
+
+
+    &.experiencia
+        background-image: 
+            linear-gradient(
+                180deg,
+                rgba(0,0,0,0),
+                rgba(0,0,0,0.7)
+            ),
+            url('../img/experiencia_main.jpg')
+        background-position: top 26% center
+    &.blog
+        background-image: 
+            linear-gradient(
+                180deg,
+                rgba(0,0,0,0),
+                rgba(0,0,0,0.7)
+            ),
+            url('../img/doctora.jpg')
+        background-position: top 26% center
+    
+    &.antioxidantes
+        background-image: 
+            linear-gradient(
+                180deg,
+                rgba(0,0,0,0),
+                rgba(0,0,0,0.7)
+            ),
+            url('../img/antioxidantes.png')
+    &.retinol
+        background-image: 
+            linear-gradient(
+                180deg,
+                rgba(0,0,0,0),
+                rgba(0,0,0,0.7)
+            ),
+            url('../img/retinol.jpg')
+    &.sunscreen
+        background-image: 
+            linear-gradient(
+                180deg,
+                rgba(0,0,0,0),
+                rgba(0,0,0,0.7)
+            ),
+            url('../img/sunscreen.jpg')
+    & .container
+        display: flex
+        flex-direction: row
+        align-items: flex-end
+        justify-content: center
+            
+
+
+#conoceme
+    padding: 2rem
+    
+    & .texto 
+        background-color: white
+        border-radius: .35rem
+        padding: 1rem
+        margin: .5rem
+        display: flex
+        flex-direction: column 
+        justify-content: center
+        align-content: center
+        & h2 
+            font-size: 1.5rem
+            font-weight: 600
+            color: da-rosa
+            text-align: center
+        & h3.subtitle
+            font-size: 1rem
+            font-weight: 200
+            color: da-rosa-fuerte
+            text-align: center
+        & p 
+            font-weight: 400
+            font-size: 1.1rem
+            font-style: italic
+    & .img 
+        & img 
+            padding: 2rem;
+            background-color: white
+            border-radius: .35rem
+            
+#tratamientosYServicios
+    display: grid
+    grid-template-columns: 1fr
+    padding: 2rem
+    
+    &>div
+        margin: 2rem 0
+
+        & h2 
+            text-align: center
+            text-transform: uppercase
+            font-size: 1.3rem 
+            margin-bottom: .5rem
+            font-weight: 700
+            color: da-texto
+            letter-spacing: .25rem
+        & .columns
+            &.last
+                justify-content: center
+            & .column
+                & .card
+                    & .card-image
+                        height: 240px
+                        & img 
+                            height: 240px
+                            object-fit: cover
+                            object-position: center top
+                            filter: grayscale(100%)
+                            transition: all .5s ease
+
+                        &.diodo img
+                            width: 311px
+
+                    &:hover .card-image img 
+                        filter: grayscale(0)
+                        
+
+                    & .card-content
+                        & .media
+                            & .media-content
+                                & h3 
+                                    font-weight: 700
+                                    font-size: 1.2rem
+                                    text-align: center
+
+#instalaciones
+    & #presentacion
+        width: 1008px
+        & div
+            & img
+                width: 1008px
+                height: 672px
+
+
+#contactame
+        & .columns
+            & .column
+                & h2 
+                    text-align: center
+                    font-size: 1.2rem
+                    font-weight: 600
+                    padding: 0 0 .25rem 0
+                & h4 
+                    font-size: 1.05rem
+
+                    &.whatsapp
+                            background: url('../img/whatsapp.svg') center right no-repeat
+                            background-size: 16px 16px
+                    &.horario
+                            background: url('../img/clock.svg') center right no-repeat
+                            background-size: 16px 16px
+                    &.ubicacion
+                            background: url('../img/mappin.svg') center right no-repeat
+                            background-size: 16px 16px
+                & .map 
+                    display: flex
+                    justify-content: center
+                    align-content: center
+
+        & .contenedor_boton
+            display: flex
+            justify-content: center
+            align-content: center
+
+#experiencias
+    & .columns
+        & .column
+            & h2 
+                font-size: 1.1rem
+                letter-spacing: .25rem
+                text-align: center
+                text-transform: uppercase
+            & ul 
+                list-style: disc
+                margin: .25rem .5rem 0 1.5rem
+            &.mobile
+                display: none
+            &>img
+                width: 660px
+                height: 440px
+                object-fit: scale-down
+                
+            
+#blogs
+    margin: 2rem 0
+
+#blog
+    padding: 3rem 1rem 0
+    font-size: 1.5rem
+
+    & h1.title 
+        color: da-rosa-fuerte
+        font-weight: 700
+    & .subtitle
+        font-size: 1.75rem
+        font-weight: 700
+        margin: 2rem 1rem 1.5rem
+
+    & .historyBlogs
+        & .otherBlogs
+            & a 
+                &, 
+                &:hover, 
+                &:focus
+                    text-decoration: none
+                    font-size: 1.75rem
+                    font-weight: 700
+                    color: da-rosa-fuerte
+            & small
+                font-size: .75rem
+                letter-spacing: .25ch
+
+            & ul
+                & li
+                    margin: .5rem 0 .5rem
+                    & .media 
+                        flex-wrap: nowrap
+                        align-content: center
+                        align-items: center
+                        justify-content: center 
+                        & .content
+                            & p
+                                line-height: 1.15
+                                font-size: 1rem
+                                &:not(:last-child)
+                                    margin-bottom: .3rem
+                                
+
+
+footer.footer
+    padding: 2rem 1.5rem 2rem
+
+// Tablet
+@media only screen and (min-width: 759px) and (max-width: 1023px)
+    h1.title 
+        font-size: 1.3rem
+    nav.navbar 
+        height: 5rem
+        & .navbar-brand
+            & .navbar-item 
+                & img 
+                    max-height: 4rem
+            & .navbar-burger
+                align-self: center
+        & .navbar-menu
+            display: block
+            & .navbar-end 
+                & a
+                    margin: .25rem 
+                    &.navbar-burger
+                        display: none
+                    & img
+                        height: 16px
+    #experiencias
+        & .columns
+            & .column
+                &.mobile
+                    display: block
+                &.desktop
+                    display: none
+    #contactame
+        & .columns
+            & .column
+                &.is-one-quarter
+                    padding-right: 0
+                    padding-left: 1.2rem
+                &.is-three-quarters
+                    padding-left: .25rem
+    #instalaciones
+        & #presentacion
+            width: 100%
+            & div
+                & img
+                    width: 100%
+                    height: auto
+
+
+// Movil
+@media only screen and (max-width: 768px)
+    h1.titulo
+        font-size: 1.3rem
+    nav.navbar
+        height: 5rem
+        & .navbar-brand
+            & .navbar-item 
+                & img 
+                    max-height: 4rem
+            & .navbar-burger
+                align-self: center
+                
+        & .navbar-menu
+            display: inline-block
+            width: 0
+            height: 0
+            & .navbar-end 
+                & a
+                    margin: .25rem 
+                    &.navbar-burger
+                        display: none
+                    & img
+                        height: 16px
+
+    #contactame
+        & .columns
+            & .column
+                &.is-one-quarter
+                    padding-right: 0
+                    padding-left: 1.2rem
+                &.is-three-quarters
+                    padding-left: .25rem
+    #experiencias
+        margin-bottom: 2rem
+        & .columns
+            & .column
+                &.mobile
+                    display: block
+                &.desktop
+                    display: none
+    
+    #instalaciones
+        & #presentacion
+            width: 100%
+            & div
+                & img
+                    width: 100%
+                    height: auto
