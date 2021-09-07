@@ -5,6 +5,12 @@ function docReady(fn){
         document.addEventListener('DOMContentLoaded', fn);
     }
 }
+
+const divisor = document.getElementById("divisor");
+const slider = document.getElementById("slider");
+function moveDivisor(){ 
+divisor.style.width = slider.value+"%";
+}
 docReady(() => {
     let links = document.querySelectorAll('nav .nav-links a');
     const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'),0);
@@ -94,4 +100,6 @@ docReady(() => {
         });
     });
 
+
+    
 });
