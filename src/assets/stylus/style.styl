@@ -397,13 +397,38 @@ footer.footer
 
 //antes-despues
     div#comparison { 
-        width: 60vw;
-        height: 60vw;
+        width: 500px;
+        height: 500px;
         max-width: 600px;
         max-height: 600px;
         overflow: hidden; 
+        position relative;
+        left: 25px;
+        bottom: 200px;
     }
-
+    div#botones{
+        position relative;
+        left: 300px;
+        top: 20px;
+        z-index: 10
+    }
+    div#botones input[type=button]{
+        cursor: pointer;
+    }
+    div#informacion{
+        background: white;
+        box-shadow: 7px 7px 7px 7px rgb(172, 171, 171);
+        width: 55%;
+        height: 50%;
+        position relative;
+        left: 395px;
+        bottom: 690px;
+    }
+    div#informacion p{
+    font-size: 20px;
+    margin-left: 12px;
+    margin-right: 12px;
+    }
 
 div#comparison figure { 
   background-image: url('../img/AntesyDespues/Despues1.jpg'); 
@@ -434,7 +459,7 @@ input[type=range]{
   -moz-appearance:none;
   position: relative;
   top: -2rem; left: -2%;
-  background-color: orange;
+  background-color: rgba(255,255,255,0.1);
   width: 50%; 
 }
 input[type=range]:focus { 
@@ -459,18 +484,18 @@ input[type=range]::active {
 input[type=range]::-webkit-slider-thumb {
     -webkit-appearance:none;
     width: 20px; height: 15px;   
-    background: yellow;
+    background: white;
     border-radius: 0;
    }
 input[type=range]::-moz-range-thumb {
   -moz-appearance: none;
   width: 20px;
   height: 15px;
-  background: green;
+  background: white;
   border-radius: 0;
      }   
 input[type=range]:focus::-webkit-slider-thumb {
-    background: blue;
+    background: black;
    }
 input[type=range]:focus::-moz-range-thumb {
     background: red;

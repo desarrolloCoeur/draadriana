@@ -3,12 +3,20 @@
     <div class="container">
         <div class="texto">
             <h1 class="titulo blanco">Antes y Despues</h1>
-            <button class="boton_cita">Agenda tu cita</button>
+            <center><button class="boton_cita">Agenda tu cita</button></center>
         </div>
     </div>
 </section>
 <!-- End Home -->
 <section id="antes-despues">
+
+<div class="botones" id="botones">
+<input type="button" value="Caso 1"><br><br>
+<input type="button" value="Caso 2"><br><br>
+<input type="button" value="Caso 3"><br><br>
+<input type="button" value="Caso 4"><br><br>
+<input type="button" value="Caso 5">
+</div>
 
 <div id="comparison">
   <figure>
@@ -16,13 +24,9 @@
   </figure>
   <input type="range" min="0" max="100" value="50" id="slider" oninput="moveDivisor()">
 </div>
-
-<div class="botones">
-<input type="button" value="Caso 1">
-<input type="button" value="Caso 2">
-<input type="button" value="Caso 3">
-<input type="button" value="Caso 4">
-<input type="button" value="Caso 5">
+<div id="informacion">
+    <h2>Caso 1</h2>
+    <p ALIGN=justify>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem laborum illo non, 
+    a mollitia molestiae numquam impedit quisquam. Quod natus eius perferendis illum voluptatum ullam autem!</p>
 </div>
-
 </section>
