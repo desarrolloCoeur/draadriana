@@ -2,8 +2,8 @@
 <nav class="navbar">
     <div class="navbar-brand">
         <a href="<?php echo BASEPATH?>" class="navbar-item">
-            <img id="blanco"src="<?php echo BASEPATH . 'assets/img/BLANCO.png'; ?>" alt="logo"> 
-            <img id="color" src="<?php echo BASEPATH . 'assets/img/COLOR.png'; ?>" alt="logo"> 
+            <img id="blanco"src="<?php echo BASEPATH . '/assets/img/BLANCO.png'; ?>" alt="logo"> 
+            <img id="color" src="<?php echo BASEPATH . '/assets/img/COLOR.png'; ?>" alt="logo"> 
         </a>
         <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarLinks">
                 <span aria-hidden="true"></span>
@@ -18,7 +18,7 @@
             <a href="<?php echo BASEPATH . '#tratamientosYServicios'; ?>" class="navbar-item">servicios</a>
             <a href="<?php echo BASEPATH . 'experiencia/'; ?>" class="navbar-item">experiencia</a>
             <a href="<?php echo BASEPATH . '#instalaciones'; ?>" class="navbar-item">instalaciones</a>
-            <a href="<?php echo BASEPATH . 'blog/';?>" class="navbar-item">blog</a>
+            <a href="<?php echo BASEPATH . '/blog/';?>" class="navbar-item">blog</a>
             <a href="#contactame" class="navbar-item">contactame</a>
             <?php
                 /*
@@ -70,10 +70,10 @@
 
         <div class="navbar-end">
             <a href="<?php echo BASEPATH . $final_path; ?>">
-                <img class="lang" src="<?php echo BASEPATH . 'assets/img/eng.svg'; ?>" alt="English" style="width: 1.5rem; height: 1.5rem;">
+                <img class="lang" src="<?php echo BASEPATH . '/assets/img/eng.svg'; ?>" alt="English" style="width: 1.5rem; height: 1.5rem;">
             </a>
             <a href="https://www.instagram.com/dra.adrianareyes/" target="_blank">
-                <img src="<?php echo BASEPATH . 'assets/img/instagram.svg'; ?>" alt="Instagram logo">
+                <img src="<?php echo BASEPATH . '/assets/img/instagram.svg'; ?>" alt="Instagram logo">
             </a>
             <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarLinks">
                 <span aria-hidden="true"></span>

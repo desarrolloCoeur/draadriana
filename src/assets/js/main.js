@@ -109,7 +109,7 @@ docReady(() => {
             switch($caso){
                 case 'Caso 1':
                     $despues.style.backgroundImage = "url(assets/img/AntesyDespues/Despues1.jpg)";
-                    $antes.style.backgroundImage = "url(assets/img/AntesyDespues/Antes1.jpg)"; 
+                    $antes.style.backgroundImage = "url(assets/img/AntesyDespues/Antes1.jpg)";
                     break;
                 case 'Caso 2':
                     $despues.style.backgroundImage = "url(assets/img/AntesyDespues/Despues2.jpg)";
