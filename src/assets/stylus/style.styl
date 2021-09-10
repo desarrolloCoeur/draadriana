@@ -56,6 +56,9 @@ button.boton_cita
     font-size: 1.1rem
     text-transform: uppercase
     transition: all .5s ease
+    position: relative;
+    left: 445px;
+    bottom: 150px;
 
     &:hover, &:focus
         background: da-gris
@@ -402,15 +405,17 @@ footer.footer
         max-width: 500px;
         max-height: 500px;
         //overflow: hidden; 
-        position relative;
-        top: 20px;
-        //left: 25px;
-        //bottom: 200px;
+        position: absolute;
+        
+        //right: 20px;
+        left: 10px;
+        bottom: -78px;
     }
     div#botones{
         position: relative;
         //left: 300px;
-        top: 10px;
+        //top: 5px;
+        bottom: 80px;
         z-index: 10
     }
     div#botones input[type=button]{
@@ -418,9 +423,10 @@ footer.footer
         background: black;
         color: white;
         font-family: Arial;
-        font-size: 20px;
+        font-size: 17px;
         margin: auto;
-        border-radius: 3px;
+
+
     }
     
 div#comparison figure { 
@@ -451,9 +457,9 @@ input[type=range]{
   -webkit-appearance:none;
   -moz-appearance:none;
   position: relative;
-  top: -2rem; left: -2%;
+  top: -2rem; left: 0%;
   background-color: rgba(255,255,255,0.1);
-  width: 50%; 
+  width: 48%; 
 }
 input[type=range]:focus { 
   outline: none; 
