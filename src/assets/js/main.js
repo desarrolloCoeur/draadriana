@@ -5,6 +5,12 @@ function docReady(fn){
         document.addEventListener('DOMContentLoaded', fn);
     }
 }
+
+const divisor = document.getElementById("divisor");
+const slider = document.getElementById("slider");
+function moveDivisor(){ 
+divisor.style.width = slider.value+"%";
+}
 docReady(() => {
     let links = document.querySelectorAll('nav .nav-links a');
     const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'),0);
@@ -94,4 +100,38 @@ docReady(() => {
         });
     });
 
+    $despues = document.querySelector('div#comparison figure');
+    $antes = document.querySelector('div#comparison figure div');
+    $botonesAntesyDespues = document.querySelectorAll('.botones > input[type=button]');
+    $botonesAntesyDespues.forEach(boton => {
+        boton.addEventListener('click', function(event){
+            $caso = event.target.value;
+            switch($caso){
+                case 'Caso 1':
+                    $despues.style.backgroundImage = "url(assets/img/AntesyDespues/Despues1.jpg)";
+                    $antes.style.backgroundImage = "url(assets/img/AntesyDespues/Antes1.jpg)";
+                    break;
+                case 'Caso 2':
+                    $despues.style.backgroundImage = "url(assets/img/AntesyDespues/Despues2.jpg)";
+                    $antes.style.backgroundImage = "url(assets/img/AntesyDespues/Antes2.jpg)"; 
+                    break;
+                case 'Caso 3':
+                    $despues.style.backgroundImage = "url(assets/img/AntesyDespues/Despues3.jpg)";
+                    $antes.style.backgroundImage = "url(assets/img/AntesyDespues/Antes3.jpg)";
+                    break;
+                case 'Caso 4':
+                    $despues.style.backgroundImage = "url(assets/img/AntesyDespues/Despues4.jpg)";
+                    $antes.style.backgroundImage = "url(assets/img/AntesyDespues/Antes4.jpg)";
+                    break;
+                case 'Caso 5':
+                    $despues.style.backgroundImage = "url(assets/img/AntesyDespues/Despues5.jpg)";
+                    $antes.style.backgroundImage = "url(assets/img/AntesyDespues/Antes5.jpg)";
+                    break;
+
+            }
+            
+        });
+    });
+
+    
 });

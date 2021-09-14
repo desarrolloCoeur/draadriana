@@ -2,7 +2,7 @@
 
 // Define a global basepath
 // define('BASEPATH','/draadriana/');
-define('BASEPATH','/dradriana/dist/');
+define('BASEPATH','/dradriana/draadriana/dist');
 // define('BASEPATH', '/');
 
 ?>
@@ -14,9 +14,9 @@ define('BASEPATH','/dradriana/dist/');
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Doctora Adriana Rios">
     <!-- <link rel="stylesheet" href="../node_modules/bulma-carousel/dist/css/bulma-carousel.min.css"> -->
-    <link rel="stylesheet" href="<?php echo BASEPATH . 'assets/css/imports.min.css'; ?>">
-    <link rel="stylesheet" href="<?php echo BASEPATH . 'assets/css/style.min.css'; ?>">
-    <link rel="shortcut icon" href="<?php echo BASEPATH . 'assets/img/favicon.png'; ?>" type="image/png"> 
+    <link rel="stylesheet" href="<?php echo BASEPATH . '/assets/css/imports.min.css'; ?>">
+    <link rel="stylesheet" href="<?php echo BASEPATH . '/assets/css/style.min.css'; ?>">
+    <link rel="shortcut icon" href="<?php echo BASEPATH . '/assets/img/favicon.png'; ?>" type="image/png"> 
     <title>Dra. Adriana Reyes</title>
 </head>
 <body>
@@ -134,6 +134,6 @@ Route::run(BASEPATH);
 
 <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
 <!-- <script src="../node_modules/bulma-carousel/dist/js/bulma-carousel.min.js"></script> -->
-<script src="<?php echo BASEPATH . 'assets/js/all.min.js'; ?>"></script>
+<script src="<?php echo BASEPATH . '/assets/js/all.min.js'; ?>"></script>
 </body>
 </html>
