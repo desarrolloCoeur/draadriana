@@ -56,10 +56,6 @@ button.boton_cita
     font-size: 1.1rem
     text-transform: uppercase
     transition: all .5s ease
-    position: relative;
-    left: 445px;
-    bottom: 150px;
-
     &:hover, &:focus
         background: da-gris
         color: da-texto
@@ -394,37 +390,35 @@ nav.navbar
                                     margin-bottom: .3rem
                                 
 
-
-footer.footer
-    padding: 2rem 1.5rem 2rem
-
 //antes-despues
     div#comparison { 
-        width: 500px;
-        height: 500px;
-        max-width: 500px;
-        max-height: 500px;
-        //overflow: hidden; 
-        position: absolute;
-        
-        //right: 20px;
-        left: 10px;
-        bottom: -78px;
+        width: 800px;
+        height: 480px;
+        max-width: 1000px;
+        max-height: 1000px;
+        overflow: hidden; 
+        display: inline-block;
+        position: relative;
+        top: -50%;
+        right: -50%;
+        transform: translate(-24%, 0);
+ 
     }
     div#botones{
-        position: relative;
-        //left: 300px;
-        //top: 5px;
-        bottom: 80px;
         z-index: 10
     }
     div#botones input[type=button]{
         cursor: pointer;
-        background: black;
-        color: white;
+        background: da-texto;
+        color: da-fondo;
         font-family: Arial;
-        font-size: 17px;
-        margin: auto;
+        font-size: 25px;
+        margin: 5px;
+        border: 0;
+            &:hover, &:focus{
+                background: da-gris
+                color: da-texto
+                }
 
 
     }
@@ -435,7 +429,7 @@ div#comparison figure {
   position: relative;
   font-size: 0;
   width: 48%; 
-  height: 60%;
+  height:100%;
   margin: 0; 
 }
 div#comparison figure > img { 
@@ -451,6 +445,7 @@ div#comparison figure div {
   overflow: hidden;
   bottom: 0;
   height: 100%;
+
 }
 
 input[type=range]{
@@ -499,6 +494,10 @@ input[type=range]:focus::-webkit-slider-thumb {
 input[type=range]:focus::-moz-range-thumb {
     background: red;
    }
+
+footer.footer
+    padding: 2rem 1.5rem 2rem
+
 
 // Tablet
 @media only screen and (min-width: 759px) and (max-width: 1023px)

@@ -279,8 +279,34 @@
             <div><img src="assets/img/Instalaciones/6.jpg" alt="6 de 6"></div> -->
         </div>
     </div>
-</section>
+</section><br>
 <!-- End Instalaciones -->
+
+<!-- Antes y despues-->
+<section id="antes-despues">
+    <h1 class="titulo">Antes y despues</h1>
+    <center>
+        <div class="botones" id="botones">
+            <input type="button" value="Caso 1">
+            <input type="button" value="Caso 2">
+            <input type="button" value="Caso 3">
+            <input type="button" value="Caso 4">
+            <input type="button" value="Caso 5">
+        </div>
+    </center>
+    <br>
+
+    <div id="comparison">
+        <figure>
+            <div id="divisor"></div>
+        </figure>
+        <input type="range" min="0" max="100" value="50" id="slider" oninput="moveDivisor()">
+    </div>
+</section>
+
+<br>
+<!-- End antes y despues-->
+
 <!-- Contactame -->
 <section id="contactame">
     <h1 class="titulo">contáctame</h1>
