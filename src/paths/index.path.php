@@ -266,6 +266,52 @@
     </div>
 </section>
 <!-- End Tratamientos y servicios -->
+
+<!-- Dermabay -->
+<section id="Dermabay">
+    <div class="dermabay_container">
+
+        <center>
+            <div class="Dermabay">
+                <img src="assets/img/Dermabay _logooficial.png"></img>
+            </div>
+        </center>  
+        <div class="columns is-desktop last">
+            <div class="column is-one-quarter">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="assets/img/DepilacionLacerSoprano.jpeg"></img>
+                    </div>
+                    <div class="card-content">
+                            <div class="media">
+                                <div class="media-content">
+                                    <h3>Depilación láser</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-one-quarter">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="assets/img/Estetica/oxygeneo.jpg"></img>
+                        </div>
+                        <div class="card-content">
+                            <div class="media">
+                                <div class="media-content">
+                                    <h3>Oxygeneo</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>     
+            </div>
+    </div>
+
+</section><br>
+
+<!-- End Dermabay -->
+
 <!-- Instalaciones -->
 <section id="instalaciones">
     <h1 class="titulo">instalaciones</h1>
