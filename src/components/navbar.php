@@ -71,6 +71,7 @@
             ?>
 
             <!-- <a href="<?php //echo BASEPATH . $final_path; ?>" class="navbar-item"><?php //echo 'ENGLISH'; ?></a> -->
+            
         </div>
 
         <div class="navbar-end">

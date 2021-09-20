@@ -114,6 +114,24 @@ nav.navbar
 
         & .navbar-end
             align-items: center
+
+            & .DermaNavbar
+                & a 
+                    &:hover, &:focus
+                        background-color: transparent
+                    & img 
+                        filter: none
+                        height: 46px
+                        width: 161px
+                        max-width: 161px
+                        background: 0;
+                        position: relative
+                        right: 20px
+                        
+
+                        &.fixed, &:hover, &.fixed:hover
+                            filter:none;
+
             & a
                 margin: .5rem
                 &.navbar-burger
@@ -129,6 +147,8 @@ nav.navbar
 
                         &.fixed, &:hover, &.fixed:hover
                             filter:none;
+
+
                     &.fixed
                         filter: invert(99%) sepia(12%) saturate(22%) hue-rotate(35deg) brightness(101%) contrast(103%)
                         &:hover
@@ -502,16 +522,16 @@ footer.footer
 // TODO: Arreglar logo dermabay en navbar <3
 //Dermabay
 div.DermaNavbar img{
-    margin: auto !important
+    margin: auto;
     background: white;
-    position: absolute !important
-    bottom: 2px !important
-    width: 95% !important
+    position: absolute;
+    bottom: 2px;
+    width: 95%;
     }
 div.Dermabay img{
-    margin: auto !important
-    width: 570px !important
-    height: 190px !important
+    margin: auto;
+    width: 570px;
+    height: 190px;
 }
 
 // Tablet
@@ -529,6 +549,8 @@ div.Dermabay img{
         & .navbar-menu
             display: block
             & .navbar-end 
+                & .DermaNavbar
+                    display: none
                 & a
                     margin: .25rem 
                     &.navbar-burger
@@ -576,6 +598,8 @@ div.Dermabay img{
             width: 0
             height: 0
             & .navbar-end 
+                & .DermaNavbar
+                    display: none
                 & a
                     margin: .25rem 
                     &.navbar-burger

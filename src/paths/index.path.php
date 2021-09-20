@@ -294,12 +294,12 @@
                 <div class="column is-one-quarter">
                     <div class="card">
                         <div class="card-image">
-                            <img src="assets/img/Estetica/oxygeneo.jpg"></img>
+                            <img src="assets/img/faciall.jpg"></img>
                         </div>
                         <div class="card-content">
                             <div class="media">
                                 <div class="media-content">
-                                    <h3>Oxygeneo</h3>
+                                    <h3>Faciales</h3>
                                 </div>
                             </div>
                         </div>
@@ -330,7 +330,7 @@
 
 <!-- Antes y despues-->
 <section id="antes-despues">
-    <h1 class="titulo">Antes y despues</h1>
+    <h1 class="titulo">Antes y después</h1>
     <center>
         <div class="botones" id="botones">
             <input type="button" value="Caso 1">
