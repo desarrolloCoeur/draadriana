@@ -118,12 +118,12 @@ Route::add('/eng/experiencia', function() {
   footer();
 });
 
-Route::add('/antes-despues', function(){
-  navi();
-  $template = 'antes-despues';
+Route::add('/dermabay/faciales', function(){
+  navi($lang = "esp");
+  $template = 'faciales';
   loadTemplate($template);
   footer();
-});
+}, 'get');
 
 // Run the Router with the given Basepath
 Route::run(BASEPATH);
