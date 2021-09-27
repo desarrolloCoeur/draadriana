@@ -56,10 +56,6 @@ button.boton_cita
     font-size: 1.1rem
     text-transform: uppercase
     transition: all .5s ease
-    position: relative;
-    left: 445px;
-    bottom: 150px;
-
     &:hover, &:focus
         background: da-gris
         color: da-texto
@@ -118,6 +114,24 @@ nav.navbar
 
         & .navbar-end
             align-items: center
+
+            & .DermaNavbar
+                & a 
+                    &:hover, &:focus
+                        background-color: transparent
+                    & img 
+                        filter: none
+                        height: 46px
+                        width: 161px
+                        max-width: 161px
+                        background: 0;
+                        position: relative
+                        right: 20px
+                        
+
+                        &.fixed, &:hover, &.fixed:hover
+                            filter:none;
+
             & a
                 margin: .5rem
                 &.navbar-burger
@@ -133,6 +147,8 @@ nav.navbar
 
                         &.fixed, &:hover, &.fixed:hover
                             filter:none;
+
+
                     &.fixed
                         filter: invert(99%) sepia(12%) saturate(22%) hue-rotate(35deg) brightness(101%) contrast(103%)
                         &:hover
@@ -245,7 +261,8 @@ nav.navbar
             padding: 2rem;
             background-color: white
             border-radius: .35rem
-            
+
+#Dermabay,            
 #tratamientosYServicios
     display: grid
     grid-template-columns: 1fr
@@ -394,37 +411,35 @@ nav.navbar
                                     margin-bottom: .3rem
                                 
 
-
-footer.footer
-    padding: 2rem 1.5rem 2rem
-
 //antes-despues
     div#comparison { 
-        width: 500px;
-        height: 500px;
-        max-width: 500px;
-        max-height: 500px;
-        //overflow: hidden; 
-        position: absolute;
-        
-        //right: 20px;
-        left: 10px;
-        bottom: -78px;
+        width: 800px;
+        height: 480px;
+        max-width: 1000px;
+        max-height: 1000px;
+        overflow: hidden; 
+        display: inline-block;
+        position: relative;
+        top: -50%;
+        right: -50%;
+        transform: translate(-24%, 0);
+ 
     }
     div#botones{
-        position: relative;
-        //left: 300px;
-        //top: 5px;
-        bottom: 80px;
         z-index: 10
     }
     div#botones input[type=button]{
         cursor: pointer;
-        background: black;
-        color: white;
+        background: da-texto;
+        color: da-fondo;
         font-family: Arial;
-        font-size: 17px;
-        margin: auto;
+        font-size: 25px;
+        margin: 5px;
+        border: 0;
+            &:hover, &:focus{
+                background: da-gris
+                color: da-texto
+                }
 
 
     }
@@ -435,7 +450,7 @@ div#comparison figure {
   position: relative;
   font-size: 0;
   width: 48%; 
-  height: 60%;
+  height:100%;
   margin: 0; 
 }
 div#comparison figure > img { 
@@ -451,6 +466,7 @@ div#comparison figure div {
   overflow: hidden;
   bottom: 0;
   height: 100%;
+
 }
 
 input[type=range]{
@@ -500,6 +516,24 @@ input[type=range]:focus::-moz-range-thumb {
     background: red;
    }
 
+footer.footer
+    padding: 2rem 1.5rem 2rem
+
+// TODO: Arreglar logo dermabay en navbar <3
+//Dermabay
+div.DermaNavbar img{
+    margin: auto;
+    background: white;
+    position: absolute;
+    bottom: 2px;
+    width: 95%;
+    }
+div.Dermabay img{
+    margin: auto;
+    width: 570px;
+    height: 190px;
+}
+
 // Tablet
 @media only screen and (min-width: 759px) and (max-width: 1023px)
     h1.title 
@@ -515,6 +549,8 @@ input[type=range]:focus::-moz-range-thumb {
         & .navbar-menu
             display: block
             & .navbar-end 
+                & .DermaNavbar
+                    display: none
                 & a
                     margin: .25rem 
                     &.navbar-burger
@@ -544,7 +580,6 @@ input[type=range]:focus::-moz-range-thumb {
                     width: 100%
                     height: auto
 
-
 // Movil
 @media only screen and (max-width: 768px)
     h1.titulo
@@ -563,6 +598,8 @@ input[type=range]:focus::-moz-range-thumb {
             width: 0
             height: 0
             & .navbar-end 
+                & .DermaNavbar
+                    display: none
                 & a
                     margin: .25rem 
                     &.navbar-burger

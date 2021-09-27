@@ -19,7 +19,11 @@
             <a href="<?php echo BASEPATH . 'experiencia/'; ?>" class="navbar-item">experiencia</a>
             <a href="<?php echo BASEPATH . '#instalaciones'; ?>" class="navbar-item">instalaciones</a>
             <a href="<?php echo BASEPATH . '/blog/';?>" class="navbar-item">blog</a>
-            <a href="#contactame" class="navbar-item">contactame</a>
+            <a href="#contactame" class="navbar-item">contactame</a><br>
+            <div class="DermaNavbar">
+            <a href="<?php echo BASEPATH . '#Dermabay'; ?>" class="navbar-item"><img src="assets/img/Dermabay _logonegro.png" alt=""></a>
+            </div>
+            
             <?php
                 /*
                 * @param array      $array
@@ -65,10 +69,15 @@
                 $final_path = implode('/', array_splice($list_url, $insert_location));
 
             ?>
-            <a href="<?php echo BASEPATH . $final_path; ?>" class="navbar-item"><?php echo 'ENGLISH'; ?></a>
+
+            <!-- <a href="<?php //echo BASEPATH . $final_path; ?>" class="navbar-item"><?php //echo 'ENGLISH'; ?></a> -->
+            
         </div>
 
         <div class="navbar-end">
+            <div class="DermaNavbar">
+                <a href="<?php echo BASEPATH . '#Dermabay'; ?>" class="navbar-item"><img src="assets/img/Dermabay _logonegro.png" alt=""></a>
+            </div>
             <a href="<?php echo BASEPATH . $final_path; ?>">
                 <img class="lang" src="<?php echo BASEPATH . '/assets/img/eng.svg'; ?>" alt="English" style="width: 1.5rem; height: 1.5rem;">
             </a>
