@@ -28,7 +28,7 @@
 
         <div class="img columns">
             <div class="column">
-                <img src="../assets/img/facial_reafirmante.jpg" alt="" srcset="">
+                <img src="../assets/img/facial_reafirmante2.jpg" alt="" srcset="">
             </div>
             <div class="texto column">
                 <h2>Facial reafirmante</h2>
@@ -44,7 +44,7 @@
                      </p>
                 </div>
                 <div class="column">
-                <img src="../assets/img/oxigeneo.jpg" alt="" srcset="">
+                <img src="../assets/img/Oxigenesis_2.jpg" alt="" srcset="">
                 </div>
         </div>
 
