@@ -125,6 +125,13 @@ Route::add('/dermabay/faciales', function(){
   footer();
 }, 'get');
 
+Route::add('/dermabay/depilacion', function(){
+  navi($lang = "esp");
+  $template = 'depilacion';
+  loadTemplate($template);
+  footer();
+}, 'get');
+
 // Run the Router with the given Basepath
 Route::run(BASEPATH);
 
