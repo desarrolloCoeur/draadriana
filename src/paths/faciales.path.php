@@ -1,10 +1,14 @@
+<section id="home" class="facial">
+    <div class="container">
+        <div class="texto">
+            <button class="boton_cita">Agenda tu cita</button>
+        </div>
+    </div>
+</section>
 <section id="faciales">
 
-    <div class=""> <img src="../assets/img/faciall.jpg" alt="" srcset="">
-    </div><br>
-    
-        <div class="img columns">
-            <div class="column">
+        <div class="columns">
+            <div class=" img column">
                 <img src="../assets/img/facial_LimProfunda.jpg" alt="" srcset="">
             </div>
             <div class="texto column">
@@ -15,19 +19,23 @@
             </div>
         </div>
         
-        <div class="img columns">
+        <div class="columns">
+            <div class="img column is-hidden-desktop">
+                <img src="../assets/img/facial_Antienvejecimiento.jpg" alt="" srcset=""> 
+            </div>
+        
             <div class="texto column">
-                    <h2>Facial Antienvejecimiento</h2>
-                    <p ALIGN=justify>Consiste en la aplicación de productos con un cocktel de ingredientes con antioxidantes que nos ayudan a disminuir y retrasar el envejecimiento.
-                     </p>
-                </div>
-                <div class="column">
+                <h2>Facial Antienvejecimiento</h2>
+                <p ALIGN=justify>Consiste en la aplicación de productos con un cocktel de ingredientes con antioxidantes que nos ayudan a disminuir y retrasar el envejecimiento.
+                </p>
+            </div>
+            <div class="img column is-hidden-touch">
                 <img src="../assets/img/facial_Antienvejecimiento.jpg" alt="" srcset="">
-                </div>
+            </div>
         </div>
 
-        <div class="img columns">
-            <div class="column">
+        <div class="columns">
+            <div class="img column">
                 <img src="../assets/img/facial_reafirmante2.jpg" alt="" srcset="">
             </div>
             <div class="texto column">
@@ -37,16 +45,23 @@
             </div>
         </div>
 
-        <div class="img columns">
-            <div class="texto column">
-                    <h2>Oxigeneo</h2>
-                    <p ALIGN=justify>Oxygeneo es una tecnología innovadora para la exfoliación de la piel, con el fin de mejorar los niveles de oxígeno en la piel y la penetración de nutrientes para enriquecer la piel.
-                     </p>
-                </div>
-                <div class="column">
+        <div class="columns">
+            <div class="img column is-hidden-desktop">
                 <img src="../assets/img/Oxigenesis_2.jpg" alt="" srcset="">
+            </div>
+            <div class="texto column">
+                <h2>Oxygeneo</h2>
+                <p ALIGN=justify>Oxygeneo es una tecnología innovadora para la exfoliación de la piel, con el fin de mejorar los niveles de oxígeno en la piel y la penetración de nutrientes para enriquecer la piel.</p>
+            </div>
+                <div class="img column is-hidden-touch">
+                    <img src="../assets/img/Oxigenesis_2.jpg" alt="" srcset="">
                 </div>
-        </div>
+        </div><br>
 
+<div class="container">
+    <div class="texto">
+        <center><button class="boton_cita">Agenda tu cita</button></center>
+    </div>
+</div>
 
 </section>
