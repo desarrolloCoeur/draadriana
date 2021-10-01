@@ -93,10 +93,26 @@ docReady(() => {
         } 
     });
 
+    var _html = document.querySelector('html');
+    var modal = document.querySelector('.modal');
+    
+    document.querySelector('.modal-close').addEventListener('click', (e) => {
+        modal.classList.remove('is-active');
+        _html.classList.remove('is-clipped');
+    });
+
+    document.body.addEventListener("keydown", function (event){
+        if (event.key === 'Escape'){
+            modal.classList.remove('is-active');
+            _html.classList.remove('is-clipped');         
+        }
+    });
+   
     $botonCita = document.querySelectorAll('.boton_cita');
     $botonCita.forEach(boton => {
         boton.addEventListener('click', (e) => {
-            window.open('https://wa.me/5213222912787/');
+            modal.classList.add('is-active');
+            _html.classList.add('is-clipped'); 
         });
     });
 

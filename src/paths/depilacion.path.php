@@ -1,7 +1,7 @@
 <section id="home" class="depilar">
     <div class="container">
         <div class="texto">
-            <button class="boton_cita">Agenda tu cita</button>
+            <button  class="boton_cita">Agenda tu cita</button>
         </div>
     </div>
 </section>
