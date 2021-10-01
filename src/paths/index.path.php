@@ -248,20 +248,6 @@
                     </div>
                 </div>
             </div>
-            <div class="column is-one-quarter">
-                <div class="card">
-                    <div class="card-image">
-                        <img src="assets/img/Estetica/oxygeneo.jpg"></img>
-                    </div>
-                    <div class="card-content">
-                        <div class="media">
-                            <div class="media-content">
-                                <h3>Oxygeneo</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
 </section>
@@ -270,7 +256,6 @@
 <!-- Dermabay -->
 <section id="Dermabay">
     <div class="dermabay_container">
-
         <center>
             <div class="Dermabay">
                 <img src="assets/img/Dermabay _logooficial.png"></img>
@@ -280,27 +265,35 @@
             <div class="column is-one-quarter">
                 <div class="card">
                     <div class="card-image">
+                        <a href="<?php echo BASEPATH . '/dermabay/depilacion'?>">
                         <img src="assets/img/DepilacionLacerSoprano.jpeg"></img>
-                    </div>
-                    <div class="card-content">
-                            <div class="media">
-                                <div class="media-content">
+                    </a>
+                </div>
+                <div class="card-content">
+                    <div class="media">
+                        <div class="media-content">
+                                    <a href="<?php echo BASEPATH . '/dermabay/depilacion'?>">
                                     <h3>Depilación láser</h3>
-                                </div>
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="column is-one-quarter">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="assets/img/faciall.jpg"></img>
-                        </div>
-                        <div class="card-content">
-                            <div class="media">
-                                <div class="media-content">
+            </div>
+            <div class="column is-one-quarter">
+                <div class="card">
+                    <div class="card-image">
+                            <a href="<?php echo BASEPATH . '/dermabay/faciales'?>">
+                                <img src="assets/img/faciall.jpg"></img>
+                            </a>
+                    </div>
+                    <div class="card-content">
+                        <div class="media">
+                            <div class="media-content">
+                                <a href="<?php echo BASEPATH . '/dermabay/faciales'?>">
                                     <h3>Faciales</h3>
-                                </div>
+                                </a>
+                            </div>
                             </div>
                         </div>
                     </div>
