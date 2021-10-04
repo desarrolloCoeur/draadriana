@@ -1,20 +1,15 @@
-<div class="modal">
+<div class="modal" id="modal">
   <div class="modal-background"></div>
   <div class="modal-content">
-    <div class="columns">
-
+      
         <div class="column">
-            <p>whatsapp</p>
-            <p>Tel</p>
-            <p>Mail</p>
+          <center>
+            <p>WhatsApp</p><br><a href="https://wa.me/523222912787"><img src="../assets/img/whatsapp.png" alt="" srcset=""></a><br><br>
+            <p>Teléfono</p><br><a href="tel:+34678567876"><img src="assets/img/telefono.png" alt="" srcset=""></a><br><br>
+            <p>Correo</p><br><a href="mailto:hgfjhfgjh"><img src="assets/img/email.png" alt="" srcset=""></a>
+          </center>
         </div>
-        <div class="column">
-            <a href="https://wa.me/523222912787">32275436543</a>
-            <a href="tel:+34678567876">346876864</a>
-            <a href="mailto:hgfjhfgjh">mghvjgfjh</a>
-        </div>
-
-    </div>
+        
   </div>
-  <button class="modal-close is-large" aria-label="close"></button>
+    <button class="modal-close is-large" aria-label="close"></button>
 </div>
