@@ -131,6 +131,10 @@ Route::add('/dermabay/depilacion', function(){
   footer();
 }, 'get');
 
+
+// Modal
+require_once 'components/modal.php';
+
 // Run the Router with the given Basepath
 Route::run(BASEPATH);
 
