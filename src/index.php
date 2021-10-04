@@ -1,7 +1,7 @@
 <?php
 
 // Define a global basepath
-// define('BASEPATH','/draadriana/');
+// define('BASEPATH','/draadriana');
 define('BASEPATH','/dradriana/draadriana/dist');
 // define('BASEPATH', '/');
 
@@ -13,7 +13,6 @@ define('BASEPATH','/dradriana/draadriana/dist');
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Doctora Adriana Rios">
-    <!-- <link rel="stylesheet" href="../node_modules/bulma-carousel/dist/css/bulma-carousel.min.css"> -->
     <link rel="stylesheet" href="<?php echo BASEPATH . '/assets/css/imports.min.css'; ?>">
     <link rel="stylesheet" href="<?php echo BASEPATH . '/assets/css/style.min.css'; ?>">
     <link rel="shortcut icon" href="<?php echo BASEPATH . '/assets/img/favicon.png'; ?>" type="image/png"> 
