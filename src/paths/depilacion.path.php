@@ -12,7 +12,7 @@
 </div>
 
 <div class="soprano">
-    <center><img src="../assets/img/depilacion-laser2.jpg" alt="" srcset=""></center>
+    <center><img src="../assets/img/Soprano laser.jpg" alt="" srcset=""></center>
 </div><br>
 
 <div class="depilacion columns">
@@ -22,7 +22,7 @@
     </div>  
 
     <div class="soprano2 column">
-        <img src="../assets/img/Soprano-Platinum.jpg" alt="" srcset="">
+        <img src="../assets/img/maquinaSoprano.jpg" alt="" srcset="">
     </div>
 
 </div>

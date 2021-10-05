@@ -9,7 +9,7 @@
 
         <div class="columns">
             <div class=" img column">
-                <img src="../assets/img/facial_LimProfunda.jpg" alt="" srcset="">
+                <img src="../assets/img/limpiezaProfunda.jpg" alt="" srcset="">
             </div>
             <div class="texto column">
                 <h2>Facial limpieza profunda</h2>
@@ -21,7 +21,7 @@
         
         <div class="columns">
             <div class="img column is-hidden-desktop">
-                <img src="../assets/img/facial_Antienvejecimiento.jpg" alt="" srcset=""> 
+                <img src="../assets/img/antienvejecimiento.jpg" alt="" srcset=""> 
             </div>
         
             <div class="texto column">
@@ -30,13 +30,13 @@
                 </p>
             </div>
             <div class="img column is-hidden-touch">
-                <img src="../assets/img/facial_Antienvejecimiento.jpg" alt="" srcset="">
+                <img src="../assets/img/antienvejecimiento.jpg" alt="" srcset="">
             </div>
         </div>
 
         <div class="columns">
             <div class="img column">
-                <img src="../assets/img/facial_reafirmante2.jpg" alt="" srcset="">
+                <img src="../assets/img/reafirmante.jpg" alt="" srcset="">
             </div>
             <div class="texto column">
                 <h2>Facial reafirmante</h2>
@@ -47,14 +47,14 @@
 
         <div class="columns">
             <div class="img column is-hidden-desktop">
-                <img src="../assets/img/Oxigenesis_2.jpg" alt="" srcset="">
+                <img src="../assets/img/Oxygeneo.jpg" alt="" srcset="">
             </div>
             <div class="texto column">
                 <h2>Oxygeneo</h2>
                 <p ALIGN=justify>Oxygeneo es una tecnología innovadora para la exfoliación de la piel, con el fin de mejorar los niveles de oxígeno en la piel y la penetración de nutrientes para enriquecer la piel.</p>
             </div>
                 <div class="img column is-hidden-touch">
-                    <img src="../assets/img/Oxigenesis_2.jpg" alt="" srcset="">
+                    <img src="../assets/img/Oxygeneo.jpg" alt="" srcset="">
                 </div>
         </div><br>
 
