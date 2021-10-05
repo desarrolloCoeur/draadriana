@@ -523,7 +523,6 @@ input[type=range]:focus::-moz-range-thumb {
 footer.footer
     padding: 2rem 1.5rem 2rem
 
-// TODO: Arreglar logo dermabay en navbar <3
 //Dermabay
 div.DermaNavbar img{
     margin: auto;
@@ -605,12 +604,39 @@ div.Dermabay img{
             width: 100%
             margin: auto     
 #modal
-    & p
-        font-family: Arial
-        color: white
-        margin: auto
-    & img
-        margin: auto
+    & .modal-content
+        background: white
+        border-radius: .35rem
+        padding: 1.5rem 2rem 
+        & .columns
+            & .column
+                & p
+                    font-size: 1.35rem
+                    font-weight: 600
+
+                    &.modal-icon
+                        background-position: center right
+                        background-size: 1rem
+                        background-repeat: no-repeat
+
+                        &.whatsapp
+                            background-image: url('../img/whatsapp.png')
+                        &.telefono
+                            background-image: url('../img/telefono.png')
+                        &.correo
+                            background-image: url('../img/email.png')
+                & a 
+                    display: inline-block
+                    font-size: 1.35rem
+                    text-decoration: none 
+                    color: da-texto
+                    transition: all .3s ease-in
+                    &:hover, &:visited, &:focus
+                        text-decoration: none
+                    &:hover
+                        color: da-rosa-fuerte
+
+
 
 // Tablet
 @media only screen and (min-width: 759px) and (max-width: 1023px)
@@ -724,3 +750,11 @@ div.Dermabay img{
                 & img
                     width: 100%
                     height: auto
+    
+    #modal
+        & .modal-content
+            & .columns
+                & .column
+                    & p.modal-icon
+                        &.whatsapp, &.telefono, &.correo
+                            background-image: none
