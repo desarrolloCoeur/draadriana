@@ -10,7 +10,6 @@
       <div class="column">
         <a href="https://wa.me/523222912787">(322) 2912 787</a>
         <a href="tel:+34678567876">(346) 7856 7876</a>
-        <a href="mailto:contacto.dra.adriana@gmail.com">contacto.dra.adriana@gmail.com</a>
       </div>
     </div>
     
