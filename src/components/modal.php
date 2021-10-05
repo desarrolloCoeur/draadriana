@@ -5,7 +5,6 @@
       <div class="column">
         <p class="modal-icon whatsapp">WhatsApp</p>
         <p class="modal-icon telefono">Teléfono</p>
-        <p class="modal-icon correo">Correo</p>
       </div>
       <div class="column">
         <a href="https://wa.me/523222912787">(322) 2912 787</a>
