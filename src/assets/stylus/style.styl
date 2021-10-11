@@ -20,12 +20,12 @@ da-azul-claro = #b8fff0
 da-azul = #b8ffff
 da-azul-fuerte = #85ffe5
 
-html,
+html
+    overflow-x: hidden
 body 
+    overflow-x: hidden
     margin: 0 
     padding: 0
-    overflow-x: hidden
-    overflow-y: auto
     font-family: Arquitecta, sans-serif
     color: da-texto
 
@@ -222,6 +222,23 @@ nav.navbar
                 rgba(0,0,0,0.7)
             ),
             url('../img/sunscreen.jpg')
+    &.facial
+        background-image: 
+            linear-gradient(
+                180deg,
+                rgba(0,0,0,0.7),
+                rgba(0,0,0,0)
+            ),
+            url('../img/faciall.jpg')
+    &.depilar
+        
+        background-image: 
+            linear-gradient(
+                180deg,
+                rgba(0,0,0,0.7),
+                rgba(0,0,0,0)
+            ),
+            url('../img/depilacionPort.jpg')
     & .container
         display: flex
         flex-direction: row
@@ -322,8 +339,8 @@ nav.navbar
             & .column
                 & h2 
                     text-align: center
-                    font-size: 1.2rem
-                    font-weight: 600
+                    font-size: 1.4rem
+                    font-weight: 700
                     padding: 0 0 .25rem 0
                 & h4 
                     font-size: 1.05rem
@@ -519,7 +536,6 @@ input[type=range]:focus::-moz-range-thumb {
 footer.footer
     padding: 2rem 1.5rem 2rem
 
-// TODO: Arreglar logo dermabay en navbar <3
 //Dermabay
 div.DermaNavbar img{
     margin: auto;
@@ -530,9 +546,110 @@ div.DermaNavbar img{
     }
 div.Dermabay img{
     margin: auto;
-    width: 570px;
-    height: 190px;
+    width: 85%;
+    //height: 190px;
 }
+//facial
+//TODO: ajustar las imagenes, texto mas grande tipo de letra, agregar Agenda
+#faciales
+    margin: auto
+    padding-top: 2rem
+    & .texto 
+        border-radius: .35rem
+        padding: 2rem
+        margin: .5rem
+        display: flex
+        bottom: 40px
+        flex-direction: column 
+        justify-content: center
+        align-content: center
+        margin: auto
+        & h2 
+            font-size: 2.3rem
+            font-weight: 600
+            color: da-rosa
+            text-align: center
+        & p 
+            font-weight: 400
+            font-size: 1.5rem
+            font-family: Arial
+    & .img 
+        & img 
+            padding-left: 2.3rem;
+            padding-right: 2.3rem;
+            background-color: white
+            border-radius: .35rem
+            margin: auto
+
+//deplicion laser
+#depilacion
+    padding-top: 2rem
+    margin: auto   
+    & .soprano
+        & img
+            width: 60%
+            //height: 470px
+            margin: auto
+    & .hola
+        & p 
+            font-weight: 400
+            font-size: 1.5rem
+            font-family: Arial
+            color: black
+            padding-right: 4rem
+            padding-left: 4rem
+            margin: auto
+    & .texto
+        & p
+            font-weight: 400
+            font-size: 1.5rem
+            font-family: Arial
+            color: black
+            padding-top: 4rem
+            padding-left: 2rem
+            margin: auto
+    & .image
+        & img
+            width 85%
+            margin: auto    
+    & .soprano2
+        & img
+            width: 100%
+            margin: auto     
+#modal
+    & .modal-content
+        background: white
+        border-radius: .35rem
+        padding: 1.5rem 2rem 
+        & .columns
+            & .column
+                & p
+                    font-size: 1.35rem
+                    font-weight: 600
+
+                    &.modal-icon
+                        background-position: center right
+                        background-size: 1rem
+                        background-repeat: no-repeat
+
+                        &.whatsapp
+                            background-image: url('../img/whatsapp.png')
+                        &.telefono
+                            background-image: url('../img/telefono.png')
+                        &.correo
+                            background-image: url('../img/email.png')
+                & a 
+                    display: inline-block
+                    font-size: 1.35rem
+                    text-decoration: none 
+                    color: da-texto
+                    transition: all .3s ease-in
+                    &:hover, &:visited, &:focus
+                        text-decoration: none
+                    &:hover
+                        color: da-rosa-fuerte
+
+
 
 // Tablet
 @media only screen and (min-width: 759px) and (max-width: 1023px)
@@ -606,15 +723,35 @@ div.Dermabay img{
                         display: none
                     & img
                         height: 16px
+                    
+    #home 
+        &.facial
+            height: 253px
+            min-height: 253px
+            background-repeat: no-repeat 
+            background-size: 100%
+            background-position: top
+        &.depilar
+            height: 223px
+            min-height: 223px
+            background-repeat: no-repeat 
+            background-size: 100%
+            background-position: top
+
 
     #contactame
         & .columns
+            padding: 0
             & .column
                 &.is-one-quarter
                     padding-right: 0
-                    padding-left: 1.2rem
+                    padding-left: .2rem
                 &.is-three-quarters
                     padding-left: .25rem
+                & h4
+                    &.ubicacion, &.horario, &.whatsapp
+                        background: none 
+
     #experiencias
         margin-bottom: 2rem
         & .columns
@@ -631,3 +768,11 @@ div.Dermabay img{
                 & img
                     width: 100%
                     height: auto
+    
+    #modal
+        & .modal-content
+            & .columns
+                & .column
+                    & p.modal-icon
+                        &.whatsapp, &.telefono, &.correo
+                            background-image: none

@@ -1,8 +1,8 @@
 <?php
 
 // Define a global basepath
-// define('BASEPATH','/draadriana/');
-define('BASEPATH','/dradriana/draadriana/dist');
+// define('BASEPATH','/draadriana');
+define('BASEPATH','/dradriana/dist');
 // define('BASEPATH', '/');
 
 ?>
@@ -13,7 +13,6 @@ define('BASEPATH','/dradriana/draadriana/dist');
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Doctora Adriana Rios">
-    <!-- <link rel="stylesheet" href="../node_modules/bulma-carousel/dist/css/bulma-carousel.min.css"> -->
     <link rel="stylesheet" href="<?php echo BASEPATH . '/assets/css/imports.min.css'; ?>">
     <link rel="stylesheet" href="<?php echo BASEPATH . '/assets/css/style.min.css'; ?>">
     <link rel="shortcut icon" href="<?php echo BASEPATH . '/assets/img/favicon.png'; ?>" type="image/png"> 
@@ -118,12 +117,23 @@ Route::add('/eng/experiencia', function() {
   footer();
 });
 
-Route::add('/antes-despues', function(){
-  navi();
-  $template = 'antes-despues';
+Route::add('/dermabay/faciales', function(){
+  navi($lang = "esp");
+  $template = 'faciales';
   loadTemplate($template);
   footer();
-});
+}, 'get');
+
+Route::add('/dermabay/depilacion', function(){
+  navi($lang = "esp");
+  $template = 'depilacion';
+  loadTemplate($template);
+  footer();
+}, 'get');
+
+
+// Modal
+require_once 'components/modal.php';
 
 // Run the Router with the given Basepath
 Route::run(BASEPATH);

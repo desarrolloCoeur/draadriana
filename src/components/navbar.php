@@ -21,7 +21,8 @@
             <a href="<?php echo BASEPATH . '/blog/';?>" class="navbar-item">blog</a>
             <a href="#contactame" class="navbar-item">contactame</a><br>
             <div class="DermaNavbar">
-            <a href="<?php echo BASEPATH . '#Dermabay'; ?>" class="navbar-item"><img src="<?php echo BASEPATH . 'assets/img/Dermabay _logonegro.png'; ?>" alt=""></a>
+            <a href="<?php echo BASEPATH . '#Dermabay'; ?>" class="navbar-item"><img src="<?php echo BASEPATH . '/assets/img/Dermabay _logonegro.png';?>" alt=""></a>
+
             </div>
             
             <?php
@@ -76,7 +77,8 @@
 
         <div class="navbar-end">
             <div class="DermaNavbar">
-                <a href="<?php echo BASEPATH . '#Dermabay'; ?>" class="navbar-item"><img src="<?php echo BASEPATH . '/assets/img/Dermabay _logonegro.png'; ?>" alt=""></a>
+                <a href="<?php echo BASEPATH . '#Dermabay'; ?>" class="navbar-item"><img src="<?php echo BASEPATH . '/assets/img/Dermabay _logonegro.png';?>" alt=""></a>
+
             </div>
             <a href="<?php echo BASEPATH . $final_path; ?>">
                 <img class="lang" src="<?php echo BASEPATH . '/assets/img/eng.svg'; ?>" alt="English" style="width: 1.5rem; height: 1.5rem;">
