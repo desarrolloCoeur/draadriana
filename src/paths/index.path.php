@@ -314,8 +314,14 @@
             <div><img src="assets/img/Instalaciones/2.jpg" alt="2 de 6"></div>
             <div><img src="assets/img/Instalaciones/3.jpg" alt="3 de 6"></div>
             <div><img src="assets/img/Instalaciones/4.jpg" alt="4 de 6"></div>
-            <!-- <div><img src="assets/img/Instalaciones/5.jpg" alt="5 de 6"></div>
-            <div><img src="assets/img/Instalaciones/6.jpg" alt="6 de 6"></div> -->
+            <div><img src="assets/img/Instalaciones/7.jpg" alt="7 de 6"></div>
+            <div><img src="assets/img/Instalaciones/8.jpg" alt="8 de 6"></div>
+            <div><img src="assets/img/Instalaciones/9.jpg" alt="9 de 6"></div>
+            <div><img src="assets/img/Instalaciones/10.jpg" alt="10 de 6"></div>
+            <div><img src="assets/img/Instalaciones/11.jpg" alt="11 de 6"></div>
+            <div><img src="assets/img/Instalaciones/12.jpg" alt="12 de 6"></div>
+            <div><img src="assets/img/Instalaciones/13.jpg" alt="13 de 6"></div>
+            <div><img src="assets/img/Instalaciones/14.jpg" alt="14 de 6"></div>
         </div>
     </div>
 </section><br>

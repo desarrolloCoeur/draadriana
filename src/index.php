@@ -2,7 +2,8 @@
 
 // Define a global basepath
 // define('BASEPATH','/draadriana');
-define('BASEPATH','/dradriana/dist');
+// define('BASEPATH','/dradriana/dist');
+define('BASEPATH','/dradriana/draadriana/dist');
 // define('BASEPATH', '/');
 
 ?>
