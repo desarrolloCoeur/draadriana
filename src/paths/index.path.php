@@ -319,9 +319,6 @@
             <div><img src="assets/img/Instalaciones/9.jpg" alt="9 de 6"></div>
             <div><img src="assets/img/Instalaciones/10.jpg" alt="10 de 6"></div>
             <div><img src="assets/img/Instalaciones/11.jpg" alt="11 de 6"></div>
-            <div><img src="assets/img/Instalaciones/12.jpg" alt="12 de 6"></div>
-            <div><img src="assets/img/Instalaciones/13.jpg" alt="13 de 6"></div>
-            <div><img src="assets/img/Instalaciones/14.jpg" alt="14 de 6"></div>
         </div>
     </div>
 </section><br>

@@ -30,6 +30,7 @@
     "gulp-uglify": "^3.0.2"
   },
   "dependencies": {
-    "gulp": "^4.0.2"
+    "gulp": "^4.0.2",
+    "imagemin": "^8.0.1"
   }
 }
