@@ -314,7 +314,6 @@
             <div><img src="assets/img/Instalaciones/2.jpg" alt="2 de 6"></div>
             <div><img src="assets/img/Instalaciones/3.jpg" alt="3 de 6"></div>
             <div><img src="assets/img/Instalaciones/4.jpg" alt="4 de 6"></div>
-            <div><img src="assets/img/Instalaciones/7.jpg" alt="7 de 6"></div>
             <div><img src="assets/img/Instalaciones/8.jpg" alt="8 de 6"></div>
             <div><img src="assets/img/Instalaciones/9.jpg" alt="9 de 6"></div>
             <div><img src="assets/img/Instalaciones/10.jpg" alt="10 de 6"></div>
